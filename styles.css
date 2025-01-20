@@ -1,0 +1,123 @@
+html {
+    font-size: 62.5%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main {
+    display: flex;
+    margin: 0 auto;
+    width: 700px;
+    margin-top: 220px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 30px rgba(0, 82, 189, 0.2);
+}
+.result {
+    border-radius: 30px;
+    background-image: linear-gradient(190deg,rgb(123, 91, 241), #4f17d1);
+    text-align: center;
+   
+}
+.result h1 {
+    color: rgb(255, 255, 255, 0.5);
+    margin-top: 40px;
+    margin-bottom: auto;
+    font-size: 2.8rem;
+}
+.circle {
+    display: flex;
+    background-image: linear-gradient(0deg,rgb(123, 91, 241, 0.1), #4f17d1);
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    margin-top: 30px;
+}
+.circle h3 {
+    font-size: 6rem;
+}
+.circle h2 {
+    color: rgba(255, 255, 255, 0.5);
+}
+.result h4 {
+    font-size: 3.6rem;
+    color: white;
+}
+.result p {
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: rgb(255, 255, 255, 0.6);
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.summary {
+    margin: 0 auto;
+    text-decoration: none;
+}
+.summary h1 {
+    margin-top: 40px;
+    font-size: 2.8rem;
+}
+.summary button {
+    padding: 20px 100px;
+    border: none;
+    background-color: rgb(45, 45, 116);
+    color: white;
+    border-radius: 30px;
+    font-size: 1.4rem;
+    margin-bottom: 40px;
+}
+.summary button:hover {
+    background-image: linear-gradient(190deg,rgb(123, 91, 241), #4f17d1);
+}
+.summary svg {
+    height: 20px;
+    margin-right: 10px;
+}
+.summary ul {
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.summary li {
+    display: flex;
+    font-size: 1.8rem;
+    margin-top: 20px;
+    padding: 15px;
+    align-items: center;
+    border-radius: 8px;
+}
+.list-1 {
+    background-color: rgb(255, 0, 0, 0.15);
+    color:  rgb(255, 0, 0);
+}
+.list-2 {
+    background-color: rgba(255, 174, 0, 0.15);
+    color: rgb(255, 215, 35);
+}
+.list-3 {
+    background-color: rgb(23, 224, 23, 0.2);
+    color:  rgb(23, 224, 23);
+}
+.list-4 {
+    background-color: rgb(98, 0, 255, 0.15);
+    color: rgb(98, 0, 255);
+}
+.summary li h3 {
+    color: black;
+    margin-right: 0px;
+    margin-left: auto;
+}
+.summary li span {
+    color: rgb(0, 0, 0, 0.3);
+}
